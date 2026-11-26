@@ -2,6 +2,8 @@ Programa para alterar bootlogo do Atmosphere/package3 do Switch.
 
 BOOTLOGO STUDIO | Atmosphere
 
+<img width="1042" height="746" alt="image" src="https://github.com/user-attachments/assets/56a8fcdd-a50a-49fc-a7ca-f9dd8acc6862" />
+
 1. Extraia todos os arquivos do ZIP em uma pasta.
 2. Instale Python 3 (https://www.python.org/downloads/) se necessario.
 3. Abra ABRIR_EDITOR.bat. Se faltar Pillow, ele tenta instalar via pip.
