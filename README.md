@@ -1,2 +1,23 @@
-# BootLogo_Studio
 Programa para alterar bootlogo do Atmosphere/package3 do Switch.
+
+BOOTLOGO STUDIO | Atmosphere
+
+1. Extraia todos os arquivos do ZIP em uma pasta.
+2. Instale Python 3 (https://www.python.org/downloads/) se necessario.
+3. Abra ABRIR_EDITOR.bat. Se faltar Pillow, ele tenta instalar via pip.
+4. Abra uma copia de SD:/atmosphere/package3.
+5. Escolha PNG, JPEG, BMP ou WebP; confira a previa.
+6. Exporte package3 em uma pasta diferente do original. Nao acrescente extensao.
+7. Com o Switch desligado, guarde o original e copie o novo arquivo para SD:/atmosphere/package3.
+
+A orientacao automatica interpreta 720x1280 como a imagem interna ja rotacionada.
+Se a sua imagem vertical estiver em pe, escolha Paisagem normal.
+A transparencia e composta sobre preto. Nenhum arquivo original e sobrescrito.
+
+Compatibilidade: assinatura PK31, 8 MiB, layout oficial com splash no intervalo
+0x400000 a 0x7C0000 (exclusivo). Apenas essa splash e modificada. A logo do modulo
+boot, a do Nintendo Switch e a do Hekate nao sao modificadas.
+Se o Hekate ignora a splash do package3, o editor nao corrige isso.
+Se o Switch nao iniciar, restaure o package3 original da mesma versao.
+
+Referencia: https://github.com/Atmosphere-NX/Atmosphere/blob/master/utilities/insert_splash_screen.py
